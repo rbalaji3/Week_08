@@ -3,10 +3,10 @@
 //  Step 01
 
 //  Import the express library
-const express = require('express')
+const express = require('swapi')
 
 //  Create an instance of express
-const app = express()
+const app = swapi()
 
 //  Declare a port to run on
 const port = 3000
